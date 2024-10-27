@@ -18,7 +18,6 @@ export default {
     extend: {
       backgroundImage: {
         dots: "url('/dots-transparent.png')",
-        squares: "url('/img/footer-texture.png')",
       },
     },
   },
