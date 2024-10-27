@@ -4,8 +4,8 @@
     import {players,rounds} from "../../stores/data";
     import {challenges} from "$lib/data/challenges.js";
     import Crown from "$lib/icons/Crown.svelte"
-    import Container from "$lib/containers/Container.svelte"
-    import BaseButton from "../../lib/buttons/BaseButton.svelte";
+    import Container from "$lib/components/Container.svelte"
+    import BaseButton from "../../lib/components/BaseButton.svelte";
     import { fly, scale } from 'svelte/transition';
     import { goto } from '$app/navigation';
     

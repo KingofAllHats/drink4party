@@ -1,6 +1,6 @@
 <script>
-    import Container from "$lib/containers/Container.svelte";
-    import Button from "$lib/buttons/BaseButton.svelte";
+    import Container from "$lib/components/Container.svelte";
+    import Button from "$lib/components/BaseButton.svelte";
      import Crown from "$lib/icons/Crown.svelte"
     import {players} from "../../stores/data";
     import { goto } from '$app/navigation';

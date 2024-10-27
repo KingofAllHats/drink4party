@@ -3,9 +3,9 @@
 
 <script>
 
-    import Button from "$lib/buttons/BaseButton.svelte";
+    import Button from "$lib/components/BaseButton.svelte";
     import Cross from "$lib/icons/Cross.svelte";
-    import Container from "$lib/containers/Container.svelte";
+    import Container from "$lib/components/Container.svelte";
     import { players, rounds } from "../stores/data";
     import { goto } from '$app/navigation';
     import { fly } from 'svelte/transition';
@@ -35,8 +35,6 @@
         resetPlayerPoints();
         goto("/play");
     }
-
-
 </script>
 
 <div in:fly={{ y: 200, duration: 400 }} class="flex flex-row gap-8">
