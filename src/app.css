@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #340b7c;
+}
+
+button,
+h1,
+h2 {
+  font-family: "Bungee";
+}
+
+h1 {
+  font-size: x-large;
+}
+h2 {
+  font-size: large;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
