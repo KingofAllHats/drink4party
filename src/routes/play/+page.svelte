@@ -51,7 +51,6 @@
 
 
 <div class="h-full flex flex-col md:flex-row justify-center items-center text-black gap-8">
-
     <div in:fly={{ y: -200, duration: 400 }}>
         <Container>
             <div class="flex text-center flex-col gap-4 w-full md:w-[350px] h-[350px]">
