@@ -47,5 +47,14 @@ export const challenges = [
   "Attempt a ballet-style leap across the room",
   "Post your last recieved text on any social media",
   "Waddle like a penguin until your next turn",
-  "Skip across the room as if you're the happiest person alive"
+  "Skip across the room as if you're the happiest person alive",
+  "Draw a self-portrait with your eyes closed",
+  "Draw yourself from a bird's-eye view",
+  "Draw yourself from an ants view",
+  "Tell a secret",
+  "Tell something embarrassing that happened to you",
+  "Mime putting on clothes that are too tight",
+  "Mime getting splashed by a puddle after a car drives by",
+  "Narrate everything you see out loud until your next turn",
+  "Narrate everything you touch out loud until your next turn"
 ];
