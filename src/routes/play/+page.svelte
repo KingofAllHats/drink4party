@@ -56,12 +56,12 @@
             <div class="flex text-center flex-col gap-4 w-full md:w-[350px] h-[350px]">
                 <p class="text-3xl font-header">{$players[currentPlayerIndex].Name}</p>
                 <p class="h-[40%]">{shuffledChallenges[currentChallengeIndex]}</p>
-                <BaseButton on:click={addPointsToActivePlayerAndGoNext} text="accept challenge" css="px-6 py-4 hover:bg-green hover:text-white w-full">
+                <BaseButton on:click={addPointsToActivePlayerAndGoNext} text="accept challenge" css="px-6 py-4 md:hover:bg-green md:hover:text-white w-full">
                     {#if showPointsAnimation}
                         <p in:scale out:scale class="text-2xl border-2 border-black absolute -right-[25px] -top-4 rounded-full bg-white text-black h-min px-2 py-1 self-center">+1</p>
                     {/if}
                 </BaseButton>
-                <BaseButton on:click={goNext} text="drink" css="px-6 py-4 hover:bg-pink hover:text-white"></BaseButton>
+                <BaseButton on:click={goNext} text="drink" css="px-6 py-4 md:hover:bg-pink md:hover:text-white"></BaseButton>
             </div>
         </Container>
     </div>

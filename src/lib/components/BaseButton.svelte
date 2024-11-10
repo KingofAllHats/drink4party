@@ -3,7 +3,7 @@
 
     const dispatch = createEventDispatcher();
     export let text = "";    
-    export let css = "px-8 py-2 hover:bg-green hover:text-white";
+    export let css = "px-8 py-2 md:hover:bg-green md:hover:text-white";
     export let ariaLabel = "";
     
     function onClick(event) {

@@ -50,20 +50,20 @@
             {#each $players as player}
               <div class="flex items-center gap-2 border-2 rounded-2xl justify-between p-4">
                 <p class="font-header">{player.Name}</p> 
-                <Button ariaLabel ="remove player" css="px-4 py-2 hover:bg-pink hover:color-white" on:click={() => {removePlayer(player.Name)}}> <Cross></Cross></Button>
+                <Button ariaLabel ="remove player" css="px-4 py-2 md:hover:bg-pink hover:color-white" on:click={() => {removePlayer(player.Name)}}> <Cross></Cross></Button>
               </div>
             {/each}
         </div>
 
         <h1 class="mb-4">Set number of rounds</h1>
         <div class="flex gap-4 mb-6">
-            <button on:click={$rounds = 5} class={"rounded-2xl border-2 border-black px-4 py-2 shadow-[4px_4px_0px_#000] hover:bg-green hover:text-white " + ($rounds == 5 ? "bg-green text-white" : "")}>5</button>
-            <button on:click={$rounds = 10} class={"rounded-2xl border-2 border-black px-4 py-2 shadow-[4px_4px_0px_#000] hover:bg-green hover:text-white " + ($rounds == 10 ? "bg-green text-white" : "")}>10</button>
-            <button on:click={$rounds = 25} class={"rounded-2xl border-2 border-black px-4 py-2 shadow-[4px_4px_0px_#000] hover:bg-green hover:text-white " + ($rounds == 25 ? "bg-green text-white" : "")}>25</button>
+            <button on:click={$rounds = 5} class={"rounded-2xl border-2 border-black px-4 py-2 shadow-[4px_4px_0px_#000] md:hover:bg-green md:hover:text-white " + ($rounds == 5 ? "bg-green text-white" : "")}>5</button>
+            <button on:click={$rounds = 10} class={"rounded-2xl border-2 border-black px-4 py-2 shadow-[4px_4px_0px_#000] md:hover:bg-green md:hover:text-white " + ($rounds == 10 ? "bg-green text-white" : "")}>10</button>
+            <button on:click={$rounds = 25} class={"rounded-2xl border-2 border-black px-4 py-2 shadow-[4px_4px_0px_#000] md:hover:bg-green md:hover:text-white " + ($rounds == 25 ? "bg-green text-white" : "")}>25</button>
         </div>
 
         {#if $players.length > 1}
-            <Button text="play" on:click={startGame} css="px-6 py-4 hover:bg-green hover:text-white w-full"></Button>
+            <Button text="play" on:click={startGame} css="px-6 py-4 md:hover:bg-green md:hover:text-white w-full"></Button>
         {/if}
     </Container>
 </div>

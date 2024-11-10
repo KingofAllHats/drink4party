@@ -24,7 +24,7 @@
                 {/each}
             </div>
         </div> 
-        <Button css="px-6 py-4 hover:bg-green hover:text-white w-full" text="play again"
+        <Button css="px-6 py-4 md:hover:bg-green md:hover:text-white w-full" text="play again"
          on:click={goto("/")}></Button>
     </Container>
 </div>
