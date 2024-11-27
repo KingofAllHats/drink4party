@@ -26,7 +26,6 @@ export const challenges = [
   "Announce every time you blink until your next turn",
   "Act like a bodybuilder and flex after every sentence you say until your next turn",
   "Walk like a crab across the room",
-  "Do your best evil villain laugh",
   "Invent a magic spell and cast it on someone",
   "Sing the chorus of your favorite song in an opera style",
   "Act out your favorite movie scene for everyone to guess",
@@ -56,5 +55,7 @@ export const challenges = [
   "Mime putting on clothes that are too tight",
   "Mime getting splashed by a puddle after a car drives by",
   "Narrate everything you see out loud until your next turn",
+  "Only drink with your left hand until your next turn",
+  "Only refer to yourself in third person until your next turn",
   "Narrate everything you touch out loud until your next turn"
 ];
